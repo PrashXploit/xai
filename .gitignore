@@ -1,0 +1,58 @@
+# ==========================================
+# XAI-Sec Project - Git Ignore
+# ==========================================
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python compiled bytecode & cache
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Node.js & Frontend build artifacts
+node_modules/
+*/node_modules/
+.next/
+*/.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files (runtime user data)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite3-journal
+
+# Personal documents, certificates & presentations
+docx/
+projectxai/
+*.pptx
+*.docx
+*.pdf
+
+# Large raw training datasets (keep samples and generator script)
+datasets/ids_dataset/
+datasets/malware_dataset/
+
+# Logs
+*.log
+xai_sec/logs/*.log
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+
